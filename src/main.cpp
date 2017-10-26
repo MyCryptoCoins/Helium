@@ -1009,7 +1009,7 @@ int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 // miner's coin stake reward
 int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, int64_t nFees, int nHeight)
 {
- //   int64_t nSubsidy = 350 * COIN;
+    int64_t nSubsidy = 350 * COIN;
 
     int64_t nRewardCoinYear;
     int64_t nRewardCoinYear2;
@@ -1017,7 +1017,6 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     nRewardCoinYear = COIN_YEAR_REWARD;
     nRewardCoinYear2 = COIN_YEAR_REWARD2;
 
-    int64_t nSubsidy;
     if (IsBlakeStarV2(pindexPrev->nTime))
         nSubsidy += nCoinAge * nRewardCoinYear2 / 365 / COIN;
     else

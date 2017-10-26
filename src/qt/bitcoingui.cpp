@@ -80,9 +80,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     trayIcon(0),
     notificator(0),
     rpcConsole(0),
+    blockBrowser(0),
     prevBlocks(0),
-    nWeight(0),
-    blockBrowser(0)
+    nWeight(0)
 {
     resize(710, 540);
     setWindowTitle(tr("BlakeStar Core") + " - " + tr("Wallet"));

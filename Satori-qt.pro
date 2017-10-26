@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = BlakeStar
+TARGET = Satori-qt
 VERSION = 2.1.2.0
 INCLUDEPATH += src src/json src/qt
 DEFINES += ENABLE_WALLET
@@ -431,8 +431,8 @@ macx:HEADERS += src/qt/macdockiconhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/BlakeStar.icns
-macx:TARGET = "BlakeStar"
+macx:ICON = src/qt/res/icons/Satori.icns
+macx:TARGET = "Satori"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread
