@@ -6,8 +6,8 @@
 #ifndef BITCOIN_UTIL_H
 #define BITCOIN_UTIL_H
 
-#ifndef WIN32
 #include <sys/types.h>
+#ifndef WIN32
 #include <sys/time.h>
 #include <sys/resource.h>
 #endif

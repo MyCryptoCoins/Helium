@@ -1,3 +1,5 @@
+# For building 32-bit windows builds from Linux using MXE
+
 TEMPLATE = app
 TARGET = Satori-qt
 VERSION = 2.1.2.0
@@ -12,7 +14,7 @@ CONFIG += thread
 CONFIG += static
 
 QMAKE_CFLAGS += -std=c99
-QMAKE_LFLAGS += -no-pie
+# QMAKE_LFLAGS += 
 QMAKE_CXXFLAGS += -fpermissive -std=gnu++11
 
 greaterThan(QT_MAJOR_VERSION, 4) {
@@ -22,23 +24,6 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 
 win32 {
 windows:LIBS += -lshlwapi
-LIBS += $$join(BOOST_LIB_PATH,,-L,) $$join(BDB_LIB_PATH,,-L,) $$join(OPENSSL_LIB_PATH,,-L,) $$join(QRENCODE_LIB_PATH,,-L,)
-LIBS += -lssl -lcrypto -ldb_cxx$$BDB_LIB_SUFFIX
-windows:LIBS += -lws2_32 -lole32 -loleaut32 -luuid -lgdi32
-LIBS += -lboost_system-mgw49-mt-s-1_55 -lboost_filesystem-mgw49-mt-s-1_55 -lboost_program_options-mgw49-mt-s-1_55 -lboost_thread-mgw49-mt-s-1_55
-BOOST_LIB_SUFFIX=-mgw49-mt-s-1_55
-BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
-BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
-BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
-BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
-OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1l/include
-OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1l
-MINIUPNPC_INCLUDE_PATH=C:/deps/
-MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
-LIBPNG_INCLUDE_PATH=C:/deps/libpng-1.6.16
-LIBPNG_LIB_PATH=C:/deps/libpng-1.6.16/.libs
-QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
-QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
 }
 
 OBJECTS_DIR = build
@@ -367,8 +352,7 @@ CODECFORTR = UTF-8
 TRANSLATIONS = $$files(src/qt/locale/bitcoin_*.ts)
 
 isEmpty(QMAKE_LRELEASE) {
-    win32:QMAKE_LRELEASE = $$[QT_INSTALL_BINS]\\lrelease.exe
-    else:QMAKE_LRELEASE = $$[QT_INSTALL_BINS]/lrelease
+    QMAKE_LRELEASE = $$[QT_INSTALL_BINS]/lrelease
 }
 isEmpty(QM_DIR):QM_DIR = $$PWD/src/qt/locale
 # automatically build translations, so they can be included in resource file
@@ -385,8 +369,7 @@ OTHER_FILES += \
 
 # platform specific defaults, if not overridden on command line
 isEmpty(BOOST_LIB_SUFFIX) {
-    macx:BOOST_LIB_SUFFIX = -mt
-    win32:BOOST_LIB_SUFFIX = -mgw49-mt-s-1_55
+    BOOST_LIB_SUFFIX = -mt
 }
 
 isEmpty(BOOST_THREAD_LIB_SUFFIX) {
@@ -415,6 +398,18 @@ isEmpty(BOOST_INCLUDE_PATH) {
 
 windows:DEFINES += WIN32
 windows:RC_FILE = src/qt/res/bitcoin-qt.rc
+
+MXE_PATH=/opt/mxe
+BOOST_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+BOOST_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
+BDB_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+BDB_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
+OPENSSL_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+OPENSSL_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
+MINIUPNPC_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+MINIUPNPC_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
+QRENCODE_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+QRENCODE_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
 
 windows:!contains(MINGW_THREAD_BUGFIX, 0) {
     # At least qmake's win32-g++-cross profile is missing the -lmingwthrd
@@ -445,7 +440,7 @@ LIBS += -lssl -lcrypto -ldb_cxx$$BDB_LIB_SUFFIX
 # -lgdi32 has to happen after -lcrypto (see  #681)
 windows:LIBS += -lws2_32 -lshlwapi -lmswsock -lole32 -loleaut32 -luuid -lgdi32
 
-LIBS += -lboost_system$$BOOST_LIB_SUFFIX -lboost_filesystem$$BOOST_LIB_SUFFIX -lboost_program_options$$BOOST_LIB_SUFFIX -lboost_thread$$BOOST_THREAD_LIB_SUFFIX
+LIBS += -lboost_system$$BOOST_LIB_SUFFIX -lboost_filesystem$$BOOST_LIB_SUFFIX -lboost_program_options$$BOOST_LIB_SUFFIX -lboost_thread_win32$$BOOST_THREAD_LIB_SUFFIX
 windows:LIBS += -lboost_chrono$$BOOST_LIB_SUFFIX
 
 contains(RELEASE, 1) {

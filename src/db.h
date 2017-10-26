@@ -14,6 +14,10 @@
 #include <string>
 #include <vector>
 
+#include <sys/types.h>
+#include <unistd.h>
+#include <pthread.h>
+
 #include <boost/filesystem/path.hpp>
 #include <db_cxx.h>
 
