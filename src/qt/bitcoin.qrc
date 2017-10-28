@@ -1,4 +1,4 @@
-<!DOCTYPE RCC><RCC version="1.0">
+<RCC>
     <qresource prefix="/icons">
         <file alias="SatoriCoin">res/icons/SatoriCoin-32.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
@@ -66,12 +66,14 @@
         <file alias="splash">res/images/splash.png</file>
         <file alias="header">res/images/header.png</file>
         <file alias="background">res/images/background.png</file>
+        <file>res/images/Logo.png</file>
     </qresource>
     <qresource prefix="/images/black">
         <file alias="about">res/images/black/about.png</file>
         <file alias="splash">res/images/black/splash.png</file>
         <file alias="header">res/images/black/header.png</file>
         <file alias="background">res/images/background.png</file>
+        <file>res/images/black/Logo.png</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="update_spinner">res/movies/update_spinner.mng</file>
