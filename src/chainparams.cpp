@@ -156,9 +156,9 @@ public:
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nTime  = 1509181222;
-        genesis.nNonce = 0;
+        genesis.nNonce = 220;
 	
-	bool regenesis = true;
+	bool regenesis = false;
 	if (regenesis)
         {
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -179,7 +179,8 @@ public:
         }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x00dca6b25fcf66a529361bd5e382831d34b82e3cdda8b320ecb6dd079917b430"));
+        assert(genesis.hashMerkleRoot == uint256("0xe3cdf2d9d1d977e50cf9d39be6a91aeae5dae61d3ba6d5f82c7f7184c9da8523"));
 
         vFixedSeeds.clear();
         vSeeds.push_back(CDNSSeedData("SatoriCoin1", "45.77.203.20"));
