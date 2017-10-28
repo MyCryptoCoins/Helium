@@ -52,8 +52,8 @@ public:
         pchMessageStart[1] = 0x11;
         pchMessageStart[2] = 0x7a;
         pchMessageStart[3] = 0xcc;
-        nDefaultPort = 14442;
-        nRPCPort = 14443;
+        nDefaultPort = 14452;
+        nRPCPort = 14453;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 24);
 
         const char* pszTimestamp = "SatoriCoin 2017 blake2s";
@@ -68,14 +68,14 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1494478445;
+        genesis.nTime    = 1509181222;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 4248725;
+        genesis.nNonce   = 0;
 
 		
         //// debug print
-		// hashGenesisBlock == uint256("0x01");
-        if (false && (genesis.GetHash() != hashGenesisBlock))
+	bool regenesis = true;
+	if (regenesis)
         {
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
             while (genesis.GetHash() > hashTarget)
@@ -94,23 +94,23 @@ public:
             cout << "mainnet.genesis.nNonce: " << genesis.nNonce << endl;
         }
 
-          hashGenesisBlock = genesis.GetHash();
-          assert(hashGenesisBlock == uint256("0x00000040cc36d5f0dc9054d8b002f1bf1a1fbd1ca48065770d7db3d512422bd4"));
-          assert(genesis.hashMerkleRoot == uint256("0xc04be9573c5cb675b2a7f463a4ee74a68663b121e7115ae7b012ffcf22d7fac2"));
+        hashGenesisBlock = genesis.GetHash();
+        assert(hashGenesisBlock == uint256("0x00000040cc36d5f0dc9054d8b002f1bf1a1fbd1ca48065770d7db3d512422bd4"));
+        assert(genesis.hashMerkleRoot == uint256("0xc04be9573c5cb675b2a7f463a4ee74a68663b121e7115ae7b012ffcf22d7fac2"));
 
         vSeeds.push_back(CDNSSeedData("SatoriCoin", "213.169.33.11"));
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(26);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
-        base58Prefixes[SECRET_KEY] =     list_of(154);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(15);
+        base58Prefixes[SCRIPT_ADDRESS] = list_of(18);
+        base58Prefixes[SECRET_KEY] =     list_of(125);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x81)(0xDA)(0xAE);
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x82)(0xA1)(0xA4);
         */
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,154);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,15); // "7"
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,18); // "8"
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,125); // "s"
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x81)(0xDA)(0xAE).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x82)(0xA1)(0xA4).convert_to_container<std::vector<unsigned char> >();
 
