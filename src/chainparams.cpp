@@ -149,19 +149,17 @@ public:
         pchMessageStart[2] = 0xae;
         pchMessageStart[3] = 0x7c;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 8);
-        nDefaultPort = 24442;
-        nRPCPort = 24443;
+        nDefaultPort = 24452;
+        nRPCPort = 24453;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nTime    = 1494310000;
-        genesis.nNonce = 259;
+        genesis.nTime  = 1509181222;
+        genesis.nNonce = 0;
 	
-	//hashGenesisBlock == uint256("0x01");
-        hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000b2db7442cdf4840e9a99d1c59dc535e5ca00e353fefa61bd8794201fe52f2"));
-        if (true && (genesis.GetHash() != hashGenesisBlock))
+	bool regenesis = true;
+	if (regenesis)
         {
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
             while (genesis.GetHash() > hashTarget)
@@ -179,8 +177,13 @@ public:
             cout << "testnet.genesis.nTime: " << genesis.nTime << endl;
             cout << "testnet.genesis.nNonce: " << genesis.nNonce << endl;
         }
+
+        hashGenesisBlock = genesis.GetHash();
+        assert(hashGenesisBlock == uint256("0x"));
+
         vFixedSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("SatoriCoin.pw", "test1.SatoriCoin.pw"));
+        vSeeds.push_back(CDNSSeedData("SatoriCoin1", "45.77.203.20"));
+        vSeeds.push_back(CDNSSeedData("SatoriCoin2", "45.77.197.236"));
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
