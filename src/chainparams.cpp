@@ -108,7 +108,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x81)(0xDA)(0xAE);
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x82)(0xA1)(0xA4);
         */
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,26);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,154);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x81)(0xDA)(0xAE).convert_to_container<std::vector<unsigned char> >();

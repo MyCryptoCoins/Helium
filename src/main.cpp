@@ -40,15 +40,15 @@ set<pair<COutPoint, unsigned int> > setStakeSeen;
 
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 48);
 
-int nStakeMinConfirmations = 500;
-unsigned int nStakeMinAge = 1 * 60 * 60; // 1 hour
+int nStakeMinConfirmations = 3;
+unsigned int nStakeMinAge = 24 * 60 * 60; // 1 day
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 15;
+int nCoinbaseMaturity = 360;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
-static const int64_t nTargetTimespan = 60 * 60;  // 60 mins
+static const int64_t nTargetTimespan = 61;  // 61 seconds
 
 uint256 nBestChainTrust = 0;
 uint256 nBestInvalidTrust = 0;
@@ -988,17 +988,13 @@ int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 {
     int64_t nSubsidy = 0 * COIN;
 
-	if(pindexBest->nHeight == 5)
+    if(pindexBest->nHeight == 1)
     {
-        nSubsidy = 240000000 * COIN;
+        nSubsidy = PREMINE_AMOUNT
     }
-    else if(pindexBest->nHeight > 60)
+    else if(pindexBest->nHeight <= 150000)
     {
-        nSubsidy = 240 * COIN;
-    }
-    if (IsSatoriCoinV2(nHeight))
-    {
-       nSubsidy = 0 * COIN;
+        nSubsidy = 55 * COIN;
     }
 
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d nHeight=%d\n", FormatMoney(nSubsidy), nSubsidy, nHeight);
@@ -1015,13 +1011,8 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     int64_t nRewardCoinYear2;
 
     nRewardCoinYear = COIN_YEAR_REWARD;
-    nRewardCoinYear2 = COIN_YEAR_REWARD2;
 
-    if (IsSatoriCoinV2(pindexPrev->nTime))
-        nSubsidy += nCoinAge * nRewardCoinYear2 / 365 / COIN;
-    else
-        nSubsidy += nCoinAge * nRewardCoinYear / 365 / COIN;
-
+    nSubsidy += nCoinAge * nRewardCoinYear / 365 / COIN;
 
     LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d nHeight=%d\n", FormatMoney(nSubsidy), nCoinAge, nHeight);
 
