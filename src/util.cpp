@@ -923,7 +923,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "BlakeStar";
+    const char* pszModule = "SatoriCoin";
 #endif
     if (pex)
         return strprintf(
@@ -953,13 +953,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\BlakeStar
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\BlakeStar
-    // Mac: ~/Library/Application Support/BlakeStar
-    // Unix: ~/.BlakeStar
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\SatoriCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\SatoriCoin
+    // Mac: ~/Library/Application Support/SatoriCoin
+    // Unix: ~/.SatoriCoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "BlakeStar";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "SatoriCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -971,10 +971,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "BlakeStar";
+    return pathRet / "SatoriCoin";
 #else
     // Unix
-    return pathRet / ".BlakeStar";
+    return pathRet / ".SatoriCoin";
 #endif
 #endif
 }
@@ -1023,7 +1023,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "BlakeStar.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "SatoriCoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1037,7 +1037,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     if (!streamConfig.good())
     {
         boost::filesystem::path ConfPath;
-               ConfPath = GetDataDir() / "BlakeStar.conf";
+               ConfPath = GetDataDir() / "SatoriCoin.conf";
                FILE* ConfFile = fopen(ConfPath.string().c_str(), "w");
                fprintf(ConfFile, "listen=1\n");
                fprintf(ConfFile, "server=1\n");
@@ -1092,7 +1092,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "BlakeStard.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "SatoriCoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

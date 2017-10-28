@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>BlakeStar.icns</string>
+	<string>SatoriCoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>BlakeStar-Qt</string>
+	<string>SatoriCoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>BlakeStar-Qt</string>
+	<string>SatoriCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.BlakeStar.BlakeStar-Qt</string>
+	<string>co.SatoriCoin.SatoriCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.BlakeStar.BlakeStarPayment</string>
+            <string>co.SatoriCoin.SatoriCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>BlakeStar</string>
+              <string>SatoriCoin</string>
             </array>
           </dict>
         </array>

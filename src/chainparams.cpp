@@ -56,7 +56,7 @@ public:
         nRPCPort = 14443;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 24);
 
-        const char* pszTimestamp = "BlakeStar 2017 blake2s";
+        const char* pszTimestamp = "SatoriCoin 2017 blake2s";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -98,7 +98,7 @@ public:
           assert(hashGenesisBlock == uint256("0x00000040cc36d5f0dc9054d8b002f1bf1a1fbd1ca48065770d7db3d512422bd4"));
           assert(genesis.hashMerkleRoot == uint256("0xc04be9573c5cb675b2a7f463a4ee74a68663b121e7115ae7b012ffcf22d7fac2"));
 
-        vSeeds.push_back(CDNSSeedData("BlakeStar", "213.169.33.11"));
+        vSeeds.push_back(CDNSSeedData("SatoriCoin", "213.169.33.11"));
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
@@ -179,7 +179,7 @@ public:
             cout << "testnet.genesis.nNonce: " << genesis.nNonce << endl;
         }
         vFixedSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("BlakeStar.pw", "test1.BlakeStar.pw"));
+        vSeeds.push_back(CDNSSeedData("SatoriCoin.pw", "test1.SatoriCoin.pw"));
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*

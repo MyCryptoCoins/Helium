@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlakeStar</source>
-        <translation>O BlakeStar</translation>
+        <source>About SatoriCoin</source>
+        <translation>O SatoriCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlakeStar&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BlakeStar&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;SatoriCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SatoriCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BlakeStar developers</source>
+Copyright © 2014 The SatoriCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your BlakeStar addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši BlakeStar naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your SatoriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši SatoriCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a BlakeStar address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva BlakeStar naslova</translation>
+        <source>Sign a message to prove you own a SatoriCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva SatoriCoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified BlakeStar address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim BlakeStar naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified SatoriCoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim SatoriCoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>BlakeStar will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BlakeStar se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>SatoriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SatoriCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlakeStar</source>
-        <translation>Pokaži informacije o BlakeStar</translation>
+        <source>Show information about SatoriCoin</source>
+        <translation>Pokaži informacije o SatoriCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,13 +390,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a BlakeStar address</source>
-        <translation>Pošlji kovance na BlakeStar naslov</translation>
+        <source>Send coins to a SatoriCoin address</source>
+        <translation>Pošlji kovance na SatoriCoin naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for BlakeStar</source>
-        <translation>Spremeni nastavitve za BlakeStar</translation>
+        <source>Modify configuration options for SatoriCoin</source>
+        <translation>Spremeni nastavitve za SatoriCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>BlakeStar</source>
-        <translation>BlakeStar</translation>
+        <source>SatoriCoin</source>
+        <translation>SatoriCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About BlakeStar</source>
-        <translation>&amp;O BlakeStar</translation>
+        <source>&amp;About SatoriCoin</source>
+        <translation>&amp;O SatoriCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>BlakeStar client</source>
-        <translation>BlakeStar program</translation>
+        <source>SatoriCoin client</source>
+        <translation>SatoriCoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlakeStar network</source>
-        <translation><numerusform>%n aktivne povezave na BlakeStar omrežje</numerusform><numerusform>%n aktivnih povezav na BlakeStar omrežje</numerusform><numerusform>%n aktivnih povezav na BlakeStar omrežje</numerusform><numerusform>%n aktivnih povezav na BlakeStar omrežje</numerusform></translation>
+        <source>%n active connection(s) to SatoriCoin network</source>
+        <translation><numerusform>%n aktivne povezave na SatoriCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SatoriCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SatoriCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SatoriCoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlakeStar address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega BlakeStar naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SatoriCoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega SatoriCoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. BlakeStar can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program BlakeStar se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. SatoriCoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program SatoriCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlakeStar address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven BlakeStar naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SatoriCoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven SatoriCoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>BlakeStar-Qt</source>
-        <translation>BlakeStar-Qt</translation>
+        <source>SatoriCoin-Qt</source>
+        <translation>SatoriCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlakeStar after logging in to the system.</source>
-        <translation>Avtomatično zaženi BlakeStar ob zagonu sistema.</translation>
+        <source>Automatically start SatoriCoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi SatoriCoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlakeStar on system login</source>
-        <translation>&amp;Zaženi BlakeStar ob prijavi v sistem</translation>
+        <source>&amp;Start SatoriCoin on system login</source>
+        <translation>&amp;Zaženi SatoriCoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1162,8 +1162,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlakeStar client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za BlakeStar program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the SatoriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za SatoriCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1192,7 +1192,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the BlakeStar network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the SatoriCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1237,8 +1237,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlakeStar.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu BlakeStar aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SatoriCoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu SatoriCoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1304,8 +1304,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlakeStar.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu BlakeStar aplikacije</translation>
+        <source>This setting will take effect after restarting SatoriCoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu SatoriCoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1323,8 +1323,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlakeStar network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z BlakeStar omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SatoriCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z SatoriCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1397,7 +1397,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start BlakeStar: click-to-pay handler</source>
+        <source>Cannot start SatoriCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1565,8 +1565,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlakeStar-Qt help message to get a list with possible BlakeStar command-line options.</source>
-        <translation>Prikaži BlakeStar-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice BlakeStar aplikacije</translation>
+        <source>Show the SatoriCoin-Qt help message to get a list with possible SatoriCoin command-line options.</source>
+        <translation>Prikaži SatoriCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice SatoriCoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1585,13 +1585,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>BlakeStar - Debug window</source>
-        <translation>BlakeStar - okno za odpravljanje napak</translation>
+        <source>SatoriCoin - Debug window</source>
+        <translation>SatoriCoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlakeStar Core</source>
-        <translation>BlakeStar jedro</translation>
+        <source>SatoriCoin Core</source>
+        <translation>SatoriCoin jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1600,8 +1600,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlakeStar debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri BlakeStar datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the SatoriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri SatoriCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1610,8 +1610,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the BlakeStar RPC console.</source>
-        <translation>Dobrodošli v BlakeStar RPC konzoli.</translation>
+        <source>Welcome to the SatoriCoin RPC console.</source>
+        <translation>Dobrodošli v SatoriCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1791,8 +1791,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a BlakeStar address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite BlakeStar naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite SatoriCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1891,8 +1891,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid BlakeStar address</source>
-        <translation>OPOZORILO: Neveljaven BlakeStar naslov</translation>
+        <source>WARNING: Invalid SatoriCoin address</source>
+        <translation>OPOZORILO: Neveljaven SatoriCoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1965,8 +1965,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlakeStar address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite BlakeStar naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite SatoriCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2026,8 +2026,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlakeStar address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva BlakeStar naslova</translation>
+        <source>Sign the message to prove you own this SatoriCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva SatoriCoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2058,8 +2058,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlakeStar address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim BlakeStar naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified SatoriCoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim SatoriCoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2069,8 +2069,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlakeStar address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite BlakeStar naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite SatoriCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2079,8 +2079,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlakeStar signature</source>
-        <translation>Vnesite BlakeStar podpis</translation>
+        <source>Enter SatoriCoin signature</source>
+        <translation>Vnesite SatoriCoin podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2658,8 +2658,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>BlakeStar version</source>
-        <translation>BlakeStar različica</translation>
+        <source>SatoriCoin version</source>
+        <translation>SatoriCoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2668,7 +2668,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or BlakeStard</source>
+        <source>Send command to -server or SatoriCoind</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2688,13 +2688,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: BlakeStar.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: BlakeStar.conf)</translation>
+        <source>Specify configuration file (default: SatoriCoin.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: SatoriCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: BlakeStard.pid)</source>
-        <translation>Določi pid datoteko (privzeto: BlakeStar.pid)</translation>
+        <source>Specify pid file (default: SatoriCoind.pid)</source>
+        <translation>Določi pid datoteko (privzeto: SatoriCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2711,13 +2711,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=BlakeStarrpc
+rpcuser=SatoriCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlakeStar Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2823,8 +2823,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BlakeStar Alert&quot; admin@fo
     </message>
     <message>
         <location line="-104"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlakeStar will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno BlakeStar ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SatoriCoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno SatoriCoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3130,7 +3130,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BlakeStar Alert&quot; admin@fo
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. BlakeStar is shutting down.</source>
+        <source>Initialization sanity check failed. SatoriCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3190,13 +3190,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BlakeStar Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlakeStar</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo BlakeStar</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SatoriCoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo SatoriCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlakeStar to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite BlakeStar za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart SatoriCoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite SatoriCoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BlakeStar Alert&quot; admin@fo
     </message>
     <message>
         <location line="+126"/>
-        <source>Unable to bind to %s on this computer. BlakeStar is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča BlakeStar aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. SatoriCoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča SatoriCoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-102"/>
@@ -3295,7 +3295,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BlakeStar Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BlakeStar is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SatoriCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

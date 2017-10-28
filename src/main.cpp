@@ -21,7 +21,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "BlakeStar cannot be compiled without assertions."
+# error "SatoriCoin cannot be compiled without assertions."
 #endif
 
 //
@@ -77,7 +77,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "BlakeStar Signed Message:\n";
+const string strMessageMagic = "SatoriCoin Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -996,7 +996,7 @@ int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
     {
         nSubsidy = 240 * COIN;
     }
-    if (IsBlakeStarV2(nHeight))
+    if (IsSatoriCoinV2(nHeight))
     {
        nSubsidy = 0 * COIN;
     }
@@ -1017,7 +1017,7 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     nRewardCoinYear = COIN_YEAR_REWARD;
     nRewardCoinYear2 = COIN_YEAR_REWARD2;
 
-    if (IsBlakeStarV2(pindexPrev->nTime))
+    if (IsSatoriCoinV2(pindexPrev->nTime))
         nSubsidy += nCoinAge * nRewardCoinYear2 / 365 / COIN;
     else
         nSubsidy += nCoinAge * nRewardCoinYear / 365 / COIN;
@@ -1843,7 +1843,7 @@ bool CTransaction::GetCoinAge(CTxDB& txdb, const CBlockIndex* pindexPrev, uint64
         if (nTime < txPrev.nTime)
             return false;  // Transaction timestamp violation
 
-        if (IsBlakeStarV2(nTime))
+        if (IsSatoriCoinV2(nTime))
         {
             int nSpendDepth;
             if (IsConfirmedInNPrevBlocks(txindex, pindexPrev, nStakeMinConfirmations - 1, nSpendDepth))
@@ -2046,9 +2046,9 @@ bool CBlock::AcceptBlock()
     CBlockIndex* pindexPrev = (*mi).second;
     int nHeight = pindexPrev->nHeight+1;
 
-    if (IsBlakeStarV2(nHeight) && nVersion < 7)
+    if (IsSatoriCoinV2(nHeight) && nVersion < 7)
         return DoS(100, error("AcceptBlock() : reject too old nVersion = %d", nVersion));
-    else if (!IsBlakeStarV2(nHeight) && nVersion > 7)
+    else if (!IsSatoriCoinV2(nHeight) && nVersion > 7)
         return DoS(100, error("AcceptBlock() : reject too new nVersion = %d", nVersion));
 
     if (IsProofOfWork() && nHeight > Params().LastPOWBlock())
@@ -2310,7 +2310,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
 }
 
 #ifdef ENABLE_WALLET
-// BlakeStar: attempt to generate suitable proof-of-stake
+// SatoriCoin: attempt to generate suitable proof-of-stake
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
     // if we are trying to sign
@@ -2661,7 +2661,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("BlakeStar-loadblk");
+    RenameThread("SatoriCoin-loadblk");
 
     CImportingNow imp;
 

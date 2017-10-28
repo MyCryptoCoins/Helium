@@ -32,7 +32,7 @@
    <bool>false</bool>
   </property>
   <property name="windowTitle">
-   <string>BlakeStar Block Explorer</string>
+   <string>SatoriCoin Block Explorer</string>
   </property>
   <layout class="QGridLayout">
    <property name="sizeConstraint">
@@ -445,7 +445,7 @@
        <item row="11" column="1">
         <widget class="QLabel" name="moneySupplyBox">
          <property name="text">
-          <string>0.00 BLAS</string>
+          <string>0.00 SATO</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>

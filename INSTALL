@@ -1,9 +1,9 @@
-Building BlakeStar
+Building SatoriCoin
 
-See doc/readme-qt.rst for instructions on building BlakeStar QT,
+See doc/readme-qt.rst for instructions on building SatoriCoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BlakeStar.
+implementation of SatoriCoin.
 
-See doc/build-*.txt for instructions on building BlakeStard,
+See doc/build-*.txt for instructions on building SatoriCoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of BlakeStar.
+implementation of SatoriCoin.

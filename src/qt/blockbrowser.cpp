@@ -151,7 +151,7 @@ std::string getOutputs(std::string txid)
 		str.append(CBitcoinAddress(address).ToString());
         str.append(": ");
         str.append(amount);
-        str.append(" BLAS");
+        str.append(" SATO");
         str.append("\n");
     }
 
@@ -189,7 +189,7 @@ std::string getInputs(std::string txid)
         str.append(CBitcoinAddress(address).ToString());
         str.append(": ");
         str.append(amount);
-        str.append(" BLAS");
+        str.append(" SATO");
         str.append("\n");
     }
 
@@ -273,16 +273,16 @@ void BlockBrowser::updateExplorer(bool block)
             ui->hashRateLabel->setText("Block Hash Rate:");
             ui->diffLabel->setText("PoW Block Difficulty:");
         }
-            ui->moneySupplyBox->setText(QString::number(getMoneySupply(height), 'f', 6) + " BLAS");
+            ui->moneySupplyBox->setText(QString::number(getMoneySupply(height), 'f', 6) + " SATO");
     }
 
     else {
         std::string txid = ui->txBox->text().toUtf8().constData();
-        ui->valueBox->setText(QString::number(getTxTotalValue(txid), 'f', 6) + " BLAS");
+        ui->valueBox->setText(QString::number(getTxTotalValue(txid), 'f', 6) + " SATO");
         ui->txID->setText(QString::fromUtf8(txid.c_str()));
         ui->outputBox->setText(QString::fromUtf8(getOutputs(txid).c_str()));
         ui->inputBox->setText(QString::fromUtf8(getInputs(txid).c_str()));
-        ui->feesBox->setText(QString::number(getTxFees(txid), 'f', 6) + " BLAS");
+        ui->feesBox->setText(QString::number(getTxFees(txid), 'f', 6) + " SATO");
     }
 }
 

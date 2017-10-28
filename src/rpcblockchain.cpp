@@ -101,7 +101,7 @@ double GetPoSKernelPS()
     if (nStakesTime)
         result = dStakeKernelsTriedAvg / nStakesTime;
 
-    if (IsBlakeStarV2(nBestHeight))
+    if (IsSatoriCoinV2(nBestHeight))
         result *= STAKE_TIMESTAMP_MASK + 1;
 
     return result;

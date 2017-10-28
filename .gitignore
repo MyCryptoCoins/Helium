@@ -1,7 +1,6 @@
 src/*.exe
-src/BlakeStar
-src/BlakeStard
-src/test_BlakeStar
+src/Satorid
+src/test_SatoriCoin
 src/build.h
 .*.swp
 *.*~*
@@ -15,7 +14,7 @@ src/build.h
 *.qm
 .qmake.stash
 Makefile
-BlakeStar-qt
+Satori-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

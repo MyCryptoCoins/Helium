@@ -63,10 +63,10 @@ inline int64_t FutureDrift(int64_t nTime, int nHeight) { return nTime + 10 * 60;
 
 inline unsigned int GetTargetSpacing(int nHeight) {return (nHeight >= 0) ? 120 : 120; }  
 
-/** BlakeStar 1.0 */
-inline bool IsBlakeStarV1(int nHeight) { return TestNet() || nHeight > 0; }
-/** BlakeStar 2.0 */
-inline bool IsBlakeStarV2(int64_t nTime) { return TestNet() || nTime > 1509494400; }
+/** SatoriCoin 1.0 */
+inline bool IsSatoriCoinV1(int nHeight) { return TestNet() || nHeight > 0; }
+/** SatoriCoin 2.0 */
+inline bool IsSatoriCoinV2(int64_t nTime) { return TestNet() || nTime > 1509494400; }
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;
