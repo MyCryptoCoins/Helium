@@ -70,11 +70,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1509181222;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 8259811;
 
 		
         //// debug print
-	bool regenesis = true;
+	bool regenesis = false;
 	if (regenesis)
         {
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -95,8 +95,8 @@ public:
         }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000034b2e365b9fbe3c3c881bed8aa865a0fcaa39c9662ca16a16f39567ade"));
-        assert(genesis.hashMerkleRoot == uint256("0x0d73965963413df5ebb8652a537635da662951eb8ad474c86b18a1caf58e6d72"));
+        assert(hashGenesisBlock == uint256("0x00000026ac8a98a21c616bcabc9534a3b61e9a9b6f2dc5ee5c0e409d5cf22ddd"));
+        assert(genesis.hashMerkleRoot == uint256("0xe3cdf2d9d1d977e50cf9d39be6a91aeae5dae61d3ba6d5f82c7f7184c9da8523"));
 
         vSeeds.push_back(CDNSSeedData("SatoriCoin1", "45.77.203.20"));
         vSeeds.push_back(CDNSSeedData("SatoriCoin2", "45.77.197.236"));
