@@ -990,7 +990,7 @@ int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 
     if(pindexBest->nHeight == 1)
     {
-        nSubsidy = PREMINE_AMOUNT
+        nSubsidy = PREMINE_AMOUNT;
     }
     else if(pindexBest->nHeight <= 150000)
     {
@@ -1005,14 +1005,8 @@ int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 // miner's coin stake reward
 int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, int64_t nFees, int nHeight)
 {
-    int64_t nSubsidy = 350 * COIN;
-
-    int64_t nRewardCoinYear;
-    int64_t nRewardCoinYear2;
-
-    nRewardCoinYear = COIN_YEAR_REWARD;
-
-    nSubsidy += nCoinAge * nRewardCoinYear / 365 / COIN;
+    int64_t nRewardCoinYear = COIN_YEAR_REWARD;
+    int64_t nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
 
     LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d nHeight=%d\n", FormatMoney(nSubsidy), nCoinAge, nHeight);
 
