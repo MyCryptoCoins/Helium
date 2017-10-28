@@ -1042,7 +1042,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
                fprintf(ConfFile, "listen=1\n");
                fprintf(ConfFile, "server=1\n");
                fprintf(ConfFile, "maxconnections=250\n");
-               fprintf(ConfFile, "rpcuser=yourusername\n");
+               fprintf(ConfFile, "rpcuser=SatoriCoinrpc\n");
 
                char s[33];
                for (int i = 0; i < 33; ++i)
@@ -1052,8 +1052,8 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
                std::string str(s);
                fprintf(ConfFile, "rpcpassword=%s\n", str.c_str());
-               fprintf(ConfFile, "port=14442\n");
-               fprintf(ConfFile, "rpcport=14443\n");
+               fprintf(ConfFile, "port=14452\n");
+               fprintf(ConfFile, "rpcport=14453\n");
                fprintf(ConfFile, "rpcconnect=127.0.0.1\n");
                fprintf(ConfFile, "rpcallowip=127.0.0.1\n");
 
