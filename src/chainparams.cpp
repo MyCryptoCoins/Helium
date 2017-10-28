@@ -63,7 +63,7 @@ public:
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1494478445, vin, vout, 0);
+        CTransaction txNew(1, 1509181222, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
@@ -95,8 +95,8 @@ public:
         }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000040cc36d5f0dc9054d8b002f1bf1a1fbd1ca48065770d7db3d512422bd4"));
-        assert(genesis.hashMerkleRoot == uint256("0xc04be9573c5cb675b2a7f463a4ee74a68663b121e7115ae7b012ffcf22d7fac2"));
+        assert(hashGenesisBlock == uint256("0x00000034b2e365b9fbe3c3c881bed8aa865a0fcaa39c9662ca16a16f39567ade"));
+        assert(genesis.hashMerkleRoot == uint256("0x0d73965963413df5ebb8652a537635da662951eb8ad474c86b18a1caf58e6d72"));
 
         vSeeds.push_back(CDNSSeedData("SatoriCoin1", "45.77.203.20"));
         vSeeds.push_back(CDNSSeedData("SatoriCoin2", "45.77.197.236"));
