@@ -68,13 +68,13 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1509181222;
+        genesis.nTime    = 1509944396;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 8259811;
+        genesis.nNonce   = 0;
 
 		
         //// debug print
-	bool regenesis = false;
+	bool regenesis = true;
 	if (regenesis)
         {
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -155,7 +155,7 @@ public:
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nTime  = 1509181222;
+        genesis.nTime  = 1509944396;
         genesis.nNonce = 220;
 	
 	bool regenesis = false;
