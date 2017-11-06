@@ -48,7 +48,7 @@ int nCoinbaseMaturity = 360;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
-static const int64_t nTargetTimespan = 120;  // 120 seconds
+static const int64_t nTargetTimespan = 12;  // 120 seconds
 
 uint256 nBestChainTrust = 0;
 uint256 nBestInvalidTrust = 0;
