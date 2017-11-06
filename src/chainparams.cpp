@@ -70,11 +70,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1509944396;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 12847531;
 
 		
         //// debug print
-	bool regenesis = true;
+	bool regenesis = false;
 	if (regenesis)
         {
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -96,8 +96,8 @@ public:
         }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000026ac8a98a21c616bcabc9534a3b61e9a9b6f2dc5ee5c0e409d5cf22ddd"));
-        assert(genesis.hashMerkleRoot == uint256("0xe3cdf2d9d1d977e50cf9d39be6a91aeae5dae61d3ba6d5f82c7f7184c9da8523"));
+        assert(hashGenesisBlock == uint256("0x0000004e58e615b6712c221d77bfb2e7fe7398cfbf43852d61773dbb2cf490bc"));
+        assert(genesis.hashMerkleRoot == uint256("0xf96f37aa7d42b403080c23906ca2b9ffa97e7bdec5d90c28b171ba7c4df50603"));
 
         vSeeds.push_back(CDNSSeedData("HeliumCoin1", "45.77.203.20"));
         vSeeds.push_back(CDNSSeedData("HeliumCoin2", "45.77.197.236"));
