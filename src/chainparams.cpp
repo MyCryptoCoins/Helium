@@ -157,9 +157,9 @@ public:
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nTime  = 1509944396;
-        genesis.nNonce = 0;
+        genesis.nNonce = 892;
 	
-	bool regenesis = true;
+	bool regenesis = false;
 	if (regenesis)
         {
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -181,8 +181,8 @@ public:
         }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00dca6b25fcf66a529361bd5e382831d34b82e3cdda8b320ecb6dd079917b430"));
-        assert(genesis.hashMerkleRoot == uint256("0xe3cdf2d9d1d977e50cf9d39be6a91aeae5dae61d3ba6d5f82c7f7184c9da8523"));
+        assert(hashGenesisBlock == uint256("0x0098820a3291be49ce2be002e74f4a0a39db4786d505bbfaf465ec72e4019987"));
+        assert(genesis.hashMerkleRoot == uint256("0xf96f37aa7d42b403080c23906ca2b9ffa97e7bdec5d90c28b171ba7c4df50603"));
 
         vFixedSeeds.clear();
         vSeeds.push_back(CDNSSeedData("HeliumCoin1", "45.77.203.20"));
