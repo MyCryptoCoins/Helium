@@ -48,7 +48,7 @@ int nCoinbaseMaturity = 360;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
-static const int64_t nTargetTimespan = 61;  // 61 seconds
+static const int64_t nTargetTimespan = 120;  // 120 seconds
 
 uint256 nBestChainTrust = 0;
 uint256 nBestInvalidTrust = 0;
@@ -988,13 +988,13 @@ int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 {
     int64_t nSubsidy = 0 * COIN;
 
-    if(pindexBest->nHeight == 1)
+    if(pindexBest->nHeight == 0)
     {
         nSubsidy = PREMINE_AMOUNT;
     }
-    else if(pindexBest->nHeight <= 150000)
+    else if(pindexBest->nHeight <= 720000)
     {
-        nSubsidy = 55 * COIN;
+        nSubsidy = 45 * COIN;
     }
 
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d nHeight=%d\n", FormatMoney(nSubsidy), nSubsidy, nHeight);

@@ -52,8 +52,8 @@ public:
         pchMessageStart[1] = 0x11;
         pchMessageStart[2] = 0x7a;
         pchMessageStart[3] = 0xcc;
-        nDefaultPort = 14452;
-        nRPCPort = 14453;
+        nDefaultPort = 16452;
+        nRPCPort = 16453;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 24);
 
         const char* pszTimestamp = "SatoriCoin 2017 blake2s";
@@ -103,14 +103,14 @@ public:
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(15);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(18);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(40);
+        base58Prefixes[SCRIPT_ADDRESS] = list_of(43);
         base58Prefixes[SECRET_KEY] =     list_of(125);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x81)(0xDA)(0xAE);
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x82)(0xA1)(0xA4);
         */
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,15); // "7"
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,18); // "8"
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,40); // "H"
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,43); // "J"
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,125); // "s"
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x81)(0xDA)(0xAE).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x82)(0xA1)(0xA4).convert_to_container<std::vector<unsigned char> >();
@@ -118,7 +118,7 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        nLastPOWBlock = 150000;
+        nLastPOWBlock = 720000;
     }
 
     virtual const CBlock& GenesisBlock() const { return genesis; }
@@ -149,8 +149,8 @@ public:
         pchMessageStart[2] = 0xae;
         pchMessageStart[3] = 0x7c;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 8);
-        nDefaultPort = 24452;
-        nRPCPort = 24453;
+        nDefaultPort = 26452;
+        nRPCPort = 26453;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
@@ -188,15 +188,15 @@ public:
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(111);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
-        base58Prefixes[SECRET_KEY]     = list_of(239);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(100);
+        base58Prefixes[SCRIPT_ADDRESS] = list_of(105);
+        base58Prefixes[SECRET_KEY]     = list_of(63);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x35)(0x87)(0xCF);
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x35)(0x83)(0x94);
         */
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,100); // h
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,105); // j
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,63); // S
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 

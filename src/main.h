@@ -48,8 +48,8 @@ static const int64_t MIN_TX_FEE = 0.00000100 * COIN;
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying) */
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** No amount larger than this (in satoshi) is valid */
-static const int64_t MAX_MONEY = 25666667 * COIN;
-static const int64_t PREMINE_AMOUNT = 1283333 * COIN;
+static const int64_t MAX_MONEY = 25040000 * COIN;
+static const int64_t PREMINE_AMOUNT = 2504000 * COIN;
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 static const int64_t COIN_YEAR_REWARD = 8 * CENT;
 
