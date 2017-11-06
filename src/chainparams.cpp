@@ -157,9 +157,9 @@ public:
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nTime  = 1509944396;
-        genesis.nNonce = 220;
+        genesis.nNonce = 0;
 	
-	bool regenesis = false;
+	bool regenesis = true;
 	if (regenesis)
         {
             uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -177,6 +177,7 @@ public:
             cout << "testnet.genesis.hashMerkleRoot: " << genesis.hashMerkleRoot.ToString() << endl;
             cout << "testnet.genesis.nTime: " << genesis.nTime << endl;
             cout << "testnet.genesis.nNonce: " << genesis.nNonce << endl;
+	    cout << flush;
         }
 
         hashGenesisBlock = genesis.GetHash();
