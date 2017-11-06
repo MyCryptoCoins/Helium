@@ -2,15 +2,15 @@
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-BOOST_LIB_PATH := /opt/x-tools/pi-boost/lib
-BOOST_INCLUDE_PATH := /opt/x-tools/pi-boost/include
-OPENSSL_LIB_PATH := /opt/x-tools/pi-openssl/lib
-OPENSSL_INCLUDE_PATH := /opt/x-tools/pi-openssl/include
-BDB_LIB_PATH := /opt/x-tools/pi-db/lib
-BDB_INCLUDE_PATH := /opt/x-tools/pi-db/include
+BOOST_LIB_PATH := /opt/x-tools/rpi/lib
+BOOST_INCLUDE_PATH := /opt/x-tools/rpi/include
+OPENSSL_LIB_PATH := /opt/x-tools/rpi/lib
+OPENSSL_INCLUDE_PATH := /opt/x-tools/rpi/include
+BDB_LIB_PATH := /opt/x-tools/rpi/lib
+BDB_INCLUDE_PATH := /opt/x-tools/rpi/include
 CXX_LIB_PATH := /opt/x-tools/pi-crosstool-ng/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/lib
 CXX_INCLUDE_PATH := /opt/x-tools/pi-crosstool-ng/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include
-ZLIB_LIB_PATH := /opt/x-tools/pi-zlib/lib
+ZLIB_LIB_PATH := /opt/x-tools/rpi/lib
 
 CROSS := arm-unknown-linux-gnueabi
 
