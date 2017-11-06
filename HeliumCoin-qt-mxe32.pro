@@ -1,7 +1,7 @@
 # For building 32-bit windows builds from Linux using MXE
 
 TEMPLATE = app
-TARGET = helium-qt
+TARGET = HeliumCoin-qt
 VERSION = 2.1.2.0
 INCLUDEPATH += src src/json src/qt
 DEFINES += ENABLE_WALLET
@@ -426,8 +426,8 @@ macx:HEADERS += src/qt/macdockiconhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/helium.icns
-macx:TARGET = "helium"
+macx:ICON = src/qt/res/icons/HeliumCoin.icns
+macx:TARGET = "HeliumCoin"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread
