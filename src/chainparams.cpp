@@ -87,11 +87,12 @@ public:
                     ++genesis.nTime;
                 }
             }
-            cout << "mainnet.genesis : \n" << genesis.ToString() << endl;
+            cout << "mainnet.genesis: " << genesis.ToString() << endl;
             cout << "mainnet.genesis.GetHash(): " << genesis.GetHash().ToString() << endl;
             cout << "mainnet.genesis.hashMerkleRoot: " << genesis.hashMerkleRoot.ToString() << endl;
             cout << "mainnet.genesis.nTime: " << genesis.nTime << endl;
             cout << "mainnet.genesis.nNonce: " << genesis.nNonce << endl;
+	    cout << flush;
         }
 
         hashGenesisBlock = genesis.GetHash();
