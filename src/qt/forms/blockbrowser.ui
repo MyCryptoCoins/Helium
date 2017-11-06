@@ -445,7 +445,7 @@
        <item row="11" column="1">
         <widget class="QLabel" name="moneySupplyBox">
          <property name="text">
-          <string>0.00 SATO</string>
+          <string>0.00 HEL</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
