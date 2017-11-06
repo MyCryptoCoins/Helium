@@ -1132,7 +1132,7 @@ void CWallet::AvailableCoinsForStaking(vector<COutput>& vCoins, unsigned int nSp
             int nDepth = pcoin->GetDepthInMainChain();
             if (nDepth < 1)
                 continue;
-            if (IsSatoriCoinV2(nSpendTime))
+            if (IsHeliumCoinV2(nSpendTime))
              {
                  if (nDepth < nStakeMinConfirmations)
                  continue;
@@ -1572,7 +1572,7 @@ uint64_t CWallet::GetStakeWeight() const
     LOCK2(cs_main, cs_wallet);
     BOOST_FOREACH(PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setCoins)
     {
-        if (IsSatoriCoinV2(nCurrentTime))
+        if (IsHeliumCoinV2(nCurrentTime))
         {
             if (pcoin.first->GetDepthInMainChain() >= nStakeMinConfirmations)
                 nWeight += pcoin.first->vout[pcoin.second].nValue;

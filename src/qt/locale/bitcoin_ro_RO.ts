@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About SatoriCoin</source>
-        <translation>Despre SatoriCoin</translation>
+        <source>About HeliumCoin</source>
+        <translation>Despre HeliumCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;SatoriCoin&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;SatoriCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;HeliumCoin&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;HeliumCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The SatoriCoin developers</source>
+Copyright © 2014 The HeliumCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The SatoriCoin developers</translation>
+Copyright © 2014 The HeliumCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your SatoriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele SatoriCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your HeliumCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele HeliumCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a SatoriCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă SatoriCoin</translation>
+        <source>Sign a message to prove you own a HeliumCoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă HeliumCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified SatoriCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă SatoriCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified HeliumCoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă HeliumCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>SatoriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>SatoriCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>HeliumCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>HeliumCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about SatoriCoin</source>
-        <translation>Arată informații despre SatoriCoin</translation>
+        <source>Show information about HeliumCoin</source>
+        <translation>Arată informații despre HeliumCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a SatoriCoin address</source>
-        <translation>Trimite monede către o adresă SatoriCoin</translation>
+        <source>Send coins to a HeliumCoin address</source>
+        <translation>Trimite monede către o adresă HeliumCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for SatoriCoin</source>
-        <translation>Modifică opțiuni de configurare pentru SatoriCoin</translation>
+        <source>Modify configuration options for HeliumCoin</source>
+        <translation>Modifică opțiuni de configurare pentru HeliumCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>SatoriCoin</source>
-        <translation>SatoriCoin</translation>
+        <source>HeliumCoin</source>
+        <translation>HeliumCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About SatoriCoin</source>
-        <translation>Despre SatoriCoin</translation>
+        <source>&amp;About HeliumCoin</source>
+        <translation>Despre HeliumCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>SatoriCoin client</source>
-        <translation>Clientul SatoriCoin</translation>
+        <source>HeliumCoin client</source>
+        <translation>Clientul HeliumCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to SatoriCoin network</source>
-        <translation><numerusform>%n conexiune activă la reteaua SatoriCoin</numerusform><numerusform>%n conexiuni active la reteaua SatoriCoin</numerusform><numerusform>%n conexiuni active la reteaua SatoriCoin</numerusform></translation>
+        <source>%n active connection(s) to HeliumCoin network</source>
+        <translation><numerusform>%n conexiune activă la reteaua HeliumCoin</numerusform><numerusform>%n conexiuni active la reteaua HeliumCoin</numerusform><numerusform>%n conexiuni active la reteaua HeliumCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid SatoriCoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa SatoriCoin invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid HeliumCoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa HeliumCoin invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. SatoriCoin can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. SatoriCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. HeliumCoin can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. HeliumCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid SatoriCoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă SatoriCoin validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HeliumCoin address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă HeliumCoin validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>SatoriCoin-Qt</source>
-        <translation>SatoriCoin-Qt</translation>
+        <source>HeliumCoin-Qt</source>
+        <translation>HeliumCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start SatoriCoin after logging in to the system.</source>
-        <translation>Pornește SatoriCoin imdiat după logarea în sistem</translation>
+        <source>Automatically start HeliumCoin after logging in to the system.</source>
+        <translation>Pornește HeliumCoin imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start SatoriCoin on system login</source>
-        <translation>$Pornește SatoriCoin la logarea în sistem</translation>
+        <source>&amp;Start HeliumCoin on system login</source>
+        <translation>$Pornește HeliumCoin la logarea în sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the SatoriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul SatoriCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the HeliumCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul HeliumCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1194,7 +1194,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the SatoriCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the HeliumCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,8 +1239,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting SatoriCoin.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea SatoriCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting HeliumCoin.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea HeliumCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1306,8 +1306,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting SatoriCoin.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea SatoriCoin.</translation>
+        <source>This setting will take effect after restarting HeliumCoin.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea HeliumCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1325,8 +1325,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SatoriCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua SatoriCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HeliumCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua HeliumCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1399,7 +1399,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start SatoriCoin: click-to-pay handler</source>
+        <source>Cannot start HeliumCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1567,8 +1567,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the SatoriCoin-Qt help message to get a list with possible SatoriCoin command-line options.</source>
-        <translation>Afișa mesajul de ajutor SatoriCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă SatoriCoin.</translation>
+        <source>Show the HeliumCoin-Qt help message to get a list with possible HeliumCoin command-line options.</source>
+        <translation>Afișa mesajul de ajutor HeliumCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă HeliumCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1587,13 +1587,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>SatoriCoin - Debug window</source>
-        <translation>SatoriCoin - fereastră depanare</translation>
+        <source>HeliumCoin - Debug window</source>
+        <translation>HeliumCoin - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>SatoriCoin Core</source>
-        <translation>SatoriCoin Core</translation>
+        <source>HeliumCoin Core</source>
+        <translation>HeliumCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1602,8 +1602,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the SatoriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare SatoriCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the HeliumCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare HeliumCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1612,8 +1612,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the SatoriCoin RPC console.</source>
-        <translation>Bine ati venit la consola SatoriCoin RPC.</translation>
+        <source>Welcome to the HeliumCoin RPC console.</source>
+        <translation>Bine ati venit la consola HeliumCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1793,8 +1793,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă SatoriCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduceți o adresă HeliumCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1893,8 +1893,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid SatoriCoin address</source>
-        <translation>Atenție: Adresă SatoriCoin invalidă</translation>
+        <source>WARNING: Invalid HeliumCoin address</source>
+        <translation>Atenție: Adresă HeliumCoin invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1967,8 +1967,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă SatoriCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduceți o adresă HeliumCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2028,8 +2028,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this SatoriCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă SatoriCoin</translation>
+        <source>Sign the message to prove you own this HeliumCoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă HeliumCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2060,8 +2060,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified SatoriCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă SatoriCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified HeliumCoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă HeliumCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2071,8 +2071,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă SatoriCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduceți o adresă HeliumCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2081,8 +2081,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter SatoriCoin signature</source>
-        <translation>Introduceti semnatura SatoriCoin</translation>
+        <source>Enter HeliumCoin signature</source>
+        <translation>Introduceti semnatura HeliumCoin</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2660,8 +2660,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>SatoriCoin version</source>
-        <translation>Versiune SatoriCoin</translation>
+        <source>HeliumCoin version</source>
+        <translation>Versiune HeliumCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2670,8 +2670,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SatoriCoind</source>
-        <translation>Trimite comanda catre server sau SatoriCoind</translation>
+        <source>Send command to -server or HeliumCoind</source>
+        <translation>Trimite comanda catre server sau HeliumCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2690,13 +2690,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SatoriCoin.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: SatoriCoin.conf)</translation>
+        <source>Specify configuration file (default: HeliumCoin.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: HeliumCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SatoriCoind.pid)</source>
-        <translation>Speficica fisier pid(implicit: SatoriCoin.pid)</translation>
+        <source>Specify pid file (default: HeliumCoind.pid)</source>
+        <translation>Speficica fisier pid(implicit: HeliumCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2713,13 +2713,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SatoriCoinrpc
+rpcuser=HeliumCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;HeliumCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2825,8 +2825,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="-104"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SatoriCoin will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit SatoriCoin nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HeliumCoin will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit HeliumCoin nu va functiona corect.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3132,7 +3132,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. SatoriCoin is shutting down.</source>
+        <source>Initialization sanity check failed. HeliumCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3192,13 +3192,13 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of SatoriCoin</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de SatoriCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HeliumCoin</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de HeliumCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart SatoriCoin to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați SatoriCoin pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart HeliumCoin to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați HeliumCoin pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3257,8 +3257,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+126"/>
-        <source>Unable to bind to %s on this computer. SatoriCoin is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil SatoriCoin ruleaza</translation>
+        <source>Unable to bind to %s on this computer. HeliumCoin is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil HeliumCoin ruleaza</translation>
     </message>
     <message>
         <location line="-102"/>
@@ -3297,7 +3297,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. SatoriCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. HeliumCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

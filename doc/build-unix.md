@@ -1,4 +1,4 @@
-# SatoriCoin build instructions for Unix/Linux
+# HeliumCoin build instructions for Unix/Linux
 
 Copyright (c) 2009-2012 Bitcoin Developers
 Distributed under the MIT/X11 software license, see the accompanying
@@ -12,10 +12,10 @@ software written by Thomas Bernard.
 ## UNIX BUILD NOTES
 
 cd src/
-make -f makefile.unix            # Headless SatoriCoin
+make -f makefile.unix            # Headless HeliumCoin
 
-See readme-qt.rst for instructions on building SatoriCoin QT,
-the graphical SatoriCoin.
+See readme-qt.rst for instructions on building HeliumCoin QT,
+the graphical HeliumCoin.
 
 ## Dependencies
 
@@ -74,12 +74,12 @@ emerge -av1 --noreplace boost openssl sys-libs/db
 Take the following steps to build (no UPnP support):
  cd ${OCTANE_DIR}/src
  make -f makefile.unix USE_UPNP=
- strip SatoriCoind
+ strip HeliumCoind
 
 
 ## Notes
 
-The release is built with GCC and then "strip SatoriCoind" to strip the debug
+The release is built with GCC and then "strip HeliumCoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -109,7 +109,7 @@ sudo su
 
 ## Security
 
-To help make your SatoriCoin installation more secure by making certain attacks impossible to
+To help make your HeliumCoin installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, you can take the following measures:
 
 * Position Independent Executable
@@ -126,7 +126,7 @@ exploit even if a vulnerability is found, you can take the following measures:
     make -f makefile.unix ... -e PIE=1
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
-    scanelf -e ./SatoriCoin
+    scanelf -e ./HeliumCoin
 
     The output should contain:
      TYPE
@@ -134,13 +134,13 @@ exploit even if a vulnerability is found, you can take the following measures:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, SatoriCoin should be built with a non-executable stack
+    vulnerable buffers are found. By default, HeliumCoin should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    scanelf -e ./SatoriCoin
+    scanelf -e ./HeliumCoin
 
     the output should contain:
     STK/REL/PTL

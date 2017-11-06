@@ -1,7 +1,7 @@
 * update translations (ping tcatm on IRC for now)
 
 * update (commit) version in sources
-  SatoriCoin-qt.pro
+  HeliumCoin-qt.pro
   src/clientversion.h (change CLIENT_VERSION_IS_RELEASE to true)
   share/setup.nsi
   doc/README*

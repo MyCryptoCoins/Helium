@@ -24,8 +24,8 @@ Once you've got the right hardware and software:
     cd ..
 
     # To build
-    cd SatoriCoin
+    cd HeliumCoin
     git pull
     cd ../gitian-builder
     git pull
-    ./bin/gbuild --commit bitcoin=HEAD ../SatoriCoin/contrib/gitian-descriptors/gitian.yml
+    ./bin/gbuild --commit bitcoin=HEAD ../HeliumCoin/contrib/gitian-descriptors/gitian.yml

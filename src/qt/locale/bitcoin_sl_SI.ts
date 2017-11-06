@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About SatoriCoin</source>
-        <translation>O SatoriCoin</translation>
+        <source>About HeliumCoin</source>
+        <translation>O HeliumCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;SatoriCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;SatoriCoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;HeliumCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;HeliumCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The SatoriCoin developers</source>
+Copyright © 2014 The HeliumCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your SatoriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši SatoriCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your HeliumCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši HeliumCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a SatoriCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva SatoriCoin naslova</translation>
+        <source>Sign a message to prove you own a HeliumCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva HeliumCoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified SatoriCoin address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim SatoriCoin naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified HeliumCoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim HeliumCoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>SatoriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>SatoriCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>HeliumCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>HeliumCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about SatoriCoin</source>
-        <translation>Pokaži informacije o SatoriCoin</translation>
+        <source>Show information about HeliumCoin</source>
+        <translation>Pokaži informacije o HeliumCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,13 +390,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a SatoriCoin address</source>
-        <translation>Pošlji kovance na SatoriCoin naslov</translation>
+        <source>Send coins to a HeliumCoin address</source>
+        <translation>Pošlji kovance na HeliumCoin naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for SatoriCoin</source>
-        <translation>Spremeni nastavitve za SatoriCoin</translation>
+        <source>Modify configuration options for HeliumCoin</source>
+        <translation>Spremeni nastavitve za HeliumCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>SatoriCoin</source>
-        <translation>SatoriCoin</translation>
+        <source>HeliumCoin</source>
+        <translation>HeliumCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About SatoriCoin</source>
-        <translation>&amp;O SatoriCoin</translation>
+        <source>&amp;About HeliumCoin</source>
+        <translation>&amp;O HeliumCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>SatoriCoin client</source>
-        <translation>SatoriCoin program</translation>
+        <source>HeliumCoin client</source>
+        <translation>HeliumCoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to SatoriCoin network</source>
-        <translation><numerusform>%n aktivne povezave na SatoriCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SatoriCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SatoriCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SatoriCoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to HeliumCoin network</source>
+        <translation><numerusform>%n aktivne povezave na HeliumCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HeliumCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HeliumCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HeliumCoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid SatoriCoin address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega SatoriCoin naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid HeliumCoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega HeliumCoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. SatoriCoin can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program SatoriCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. HeliumCoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program HeliumCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid SatoriCoin address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven SatoriCoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HeliumCoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven HeliumCoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>SatoriCoin-Qt</source>
-        <translation>SatoriCoin-Qt</translation>
+        <source>HeliumCoin-Qt</source>
+        <translation>HeliumCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start SatoriCoin after logging in to the system.</source>
-        <translation>Avtomatično zaženi SatoriCoin ob zagonu sistema.</translation>
+        <source>Automatically start HeliumCoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi HeliumCoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start SatoriCoin on system login</source>
-        <translation>&amp;Zaženi SatoriCoin ob prijavi v sistem</translation>
+        <source>&amp;Start HeliumCoin on system login</source>
+        <translation>&amp;Zaženi HeliumCoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1162,8 +1162,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the SatoriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za SatoriCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the HeliumCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za HeliumCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1192,7 +1192,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the SatoriCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the HeliumCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1237,8 +1237,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting SatoriCoin.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu SatoriCoin aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting HeliumCoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu HeliumCoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1304,8 +1304,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting SatoriCoin.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu SatoriCoin aplikacije</translation>
+        <source>This setting will take effect after restarting HeliumCoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu HeliumCoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1323,8 +1323,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SatoriCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z SatoriCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HeliumCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z HeliumCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1397,7 +1397,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start SatoriCoin: click-to-pay handler</source>
+        <source>Cannot start HeliumCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1565,8 +1565,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the SatoriCoin-Qt help message to get a list with possible SatoriCoin command-line options.</source>
-        <translation>Prikaži SatoriCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice SatoriCoin aplikacije</translation>
+        <source>Show the HeliumCoin-Qt help message to get a list with possible HeliumCoin command-line options.</source>
+        <translation>Prikaži HeliumCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice HeliumCoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1585,13 +1585,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>SatoriCoin - Debug window</source>
-        <translation>SatoriCoin - okno za odpravljanje napak</translation>
+        <source>HeliumCoin - Debug window</source>
+        <translation>HeliumCoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>SatoriCoin Core</source>
-        <translation>SatoriCoin jedro</translation>
+        <source>HeliumCoin Core</source>
+        <translation>HeliumCoin jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1600,8 +1600,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the SatoriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri SatoriCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the HeliumCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri HeliumCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1610,8 +1610,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the SatoriCoin RPC console.</source>
-        <translation>Dobrodošli v SatoriCoin RPC konzoli.</translation>
+        <source>Welcome to the HeliumCoin RPC console.</source>
+        <translation>Dobrodošli v HeliumCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1791,8 +1791,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite SatoriCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite HeliumCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1891,8 +1891,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid SatoriCoin address</source>
-        <translation>OPOZORILO: Neveljaven SatoriCoin naslov</translation>
+        <source>WARNING: Invalid HeliumCoin address</source>
+        <translation>OPOZORILO: Neveljaven HeliumCoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1965,8 +1965,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite SatoriCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite HeliumCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2026,8 +2026,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this SatoriCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva SatoriCoin naslova</translation>
+        <source>Sign the message to prove you own this HeliumCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva HeliumCoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2058,8 +2058,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified SatoriCoin address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim SatoriCoin naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified HeliumCoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim HeliumCoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2069,8 +2069,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite SatoriCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite HeliumCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2079,8 +2079,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter SatoriCoin signature</source>
-        <translation>Vnesite SatoriCoin podpis</translation>
+        <source>Enter HeliumCoin signature</source>
+        <translation>Vnesite HeliumCoin podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2658,8 +2658,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>SatoriCoin version</source>
-        <translation>SatoriCoin različica</translation>
+        <source>HeliumCoin version</source>
+        <translation>HeliumCoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2668,7 +2668,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SatoriCoind</source>
+        <source>Send command to -server or HeliumCoind</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2688,13 +2688,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SatoriCoin.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: SatoriCoin.conf)</translation>
+        <source>Specify configuration file (default: HeliumCoin.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: HeliumCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SatoriCoind.pid)</source>
-        <translation>Določi pid datoteko (privzeto: SatoriCoin.pid)</translation>
+        <source>Specify pid file (default: HeliumCoind.pid)</source>
+        <translation>Določi pid datoteko (privzeto: HeliumCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2711,13 +2711,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SatoriCoinrpc
+rpcuser=HeliumCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;HeliumCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2823,8 +2823,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="-104"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SatoriCoin will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno SatoriCoin ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HeliumCoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno HeliumCoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3130,7 +3130,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. SatoriCoin is shutting down.</source>
+        <source>Initialization sanity check failed. HeliumCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3190,13 +3190,13 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of SatoriCoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo SatoriCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HeliumCoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo HeliumCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart SatoriCoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite SatoriCoin za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart HeliumCoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite HeliumCoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+126"/>
-        <source>Unable to bind to %s on this computer. SatoriCoin is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča SatoriCoin aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. HeliumCoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča HeliumCoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-102"/>
@@ -3295,7 +3295,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. SatoriCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. HeliumCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

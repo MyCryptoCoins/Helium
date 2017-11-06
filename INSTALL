@@ -1,9 +1,9 @@
-Building SatoriCoin
+Building HeliumCoin
 
-See doc/readme-qt.rst for instructions on building SatoriCoin QT,
+See doc/readme-qt.rst for instructions on building HeliumCoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of SatoriCoin.
+implementation of HeliumCoin.
 
-See doc/build-*.txt for instructions on building SatoriCoind,
+See doc/build-*.txt for instructions on building HeliumCoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of SatoriCoin.
+implementation of HeliumCoin.

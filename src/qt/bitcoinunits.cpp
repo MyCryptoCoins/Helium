@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("SatoriCoins");
-    case mBTC: return QString("Milli-SatoriCoins (1 / 1,000)");
-    case uBTC: return QString("Micro-SatoriCoins (1 / 1,000,000)");
+    case BTC: return QString("HeliumCoins");
+    case mBTC: return QString("Milli-HeliumCoins (1 / 1,000)");
+    case uBTC: return QString("Micro-HeliumCoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }

@@ -923,7 +923,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "SatoriCoin";
+    const char* pszModule = "HeliumCoin";
 #endif
     if (pex)
         return strprintf(
@@ -953,13 +953,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\SatoriCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\SatoriCoin
-    // Mac: ~/Library/Application Support/SatoriCoin
-    // Unix: ~/.SatoriCoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\HeliumCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\HeliumCoin
+    // Mac: ~/Library/Application Support/HeliumCoin
+    // Unix: ~/.HeliumCoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "SatoriCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "HeliumCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -971,10 +971,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "SatoriCoin";
+    return pathRet / "HeliumCoin";
 #else
     // Unix
-    return pathRet / ".SatoriCoin";
+    return pathRet / ".HeliumCoin";
 #endif
 #endif
 }
@@ -1023,7 +1023,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "SatoriCoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "HeliumCoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1037,12 +1037,12 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     if (!streamConfig.good())
     {
         boost::filesystem::path ConfPath;
-               ConfPath = GetDataDir() / "SatoriCoin.conf";
+               ConfPath = GetDataDir() / "HeliumCoin.conf";
                FILE* ConfFile = fopen(ConfPath.string().c_str(), "w");
                fprintf(ConfFile, "listen=1\n");
                fprintf(ConfFile, "server=1\n");
                fprintf(ConfFile, "maxconnections=250\n");
-               fprintf(ConfFile, "rpcuser=SatoriCoinrpc\n");
+               fprintf(ConfFile, "rpcuser=HeliumCoinrpc\n");
 
                char s[33];
                for (int i = 0; i < 33; ++i)
@@ -1092,7 +1092,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "SatoriCoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "HeliumCoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

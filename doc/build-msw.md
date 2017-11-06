@@ -1,4 +1,4 @@
-# SatoriCoin build instructions for MS Windows
+# HeliumCoin build instructions for MS Windows
 
 Copyright (c) 2009-2012 Bitcoin Developers
 Distributed under the MIT/X11 software license, see the accompanying
@@ -9,7 +9,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP
 software written by Thomas Bernard.
 
 
-See readme-qt.rst for instructions on building SatoriCoin QT, the
+See readme-qt.rst for instructions on building HeliumCoin QT, the
 graphical user interface.
 
 ## WINDOWS BUILD NOTES
@@ -90,12 +90,12 @@ mkdir miniupnpc
 cp *.h miniupnpc/
 ```
 
-### SatoriCoin
+### HeliumCoin
 
 DOS prompt:
 
 ```
-cd \SatoriCoin\src
+cd \HeliumCoin\src
 mingw32-make -f makefile.mingw
-strip SatoriCoind.exe
+strip HeliumCoind.exe
 ```

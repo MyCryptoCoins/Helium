@@ -1,6 +1,6 @@
 src/*.exe
-src/Satorid
-src/test_SatoriCoin
+src/Heliumd
+src/test_HeliumCoin
 src/build.h
 .*.swp
 *.*~*
@@ -14,7 +14,7 @@ src/build.h
 *.qm
 .qmake.stash
 Makefile
-Satori-qt
+Helium-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

@@ -50,12 +50,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("SatoriCoin version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("HeliumCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  SatoriCoind [options]                     " + "\n" +
-                  "  SatoriCoind [options] <command> [params]  " + _("Send command to -server or SatoriCoind") + "\n" +
-                  "  SatoriCoind [options] help                " + _("List commands") + "\n" +
-                  "  SatoriCoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  HeliumCoind [options]                     " + "\n" +
+                  "  HeliumCoind [options] <command> [params]  " + _("Send command to -server or HeliumCoind") + "\n" +
+                  "  HeliumCoind [options] help                " + _("List commands") + "\n" +
+                  "  HeliumCoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "SatoriCoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "HeliumCoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)

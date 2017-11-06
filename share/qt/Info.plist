@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>SatoriCoin.icns</string>
+	<string>HeliumCoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>SatoriCoin-Qt</string>
+	<string>HeliumCoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>SatoriCoin-Qt</string>
+	<string>HeliumCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.SatoriCoin.SatoriCoin-Qt</string>
+	<string>co.HeliumCoin.HeliumCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.SatoriCoin.SatoriCoinPayment</string>
+            <string>co.HeliumCoin.HeliumCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>SatoriCoin</string>
+              <string>HeliumCoin</string>
             </array>
           </dict>
         </array>

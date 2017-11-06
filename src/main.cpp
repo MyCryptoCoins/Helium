@@ -21,7 +21,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "SatoriCoin cannot be compiled without assertions."
+# error "HeliumCoin cannot be compiled without assertions."
 #endif
 
 //
@@ -77,7 +77,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "SatoriCoin Signed Message:\n";
+const string strMessageMagic = "HeliumCoin Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -1828,7 +1828,7 @@ bool CTransaction::GetCoinAge(CTxDB& txdb, const CBlockIndex* pindexPrev, uint64
         if (nTime < txPrev.nTime)
             return false;  // Transaction timestamp violation
 
-        if (IsSatoriCoinV2(nTime))
+        if (IsHeliumCoinV2(nTime))
         {
             int nSpendDepth;
             if (IsConfirmedInNPrevBlocks(txindex, pindexPrev, nStakeMinConfirmations - 1, nSpendDepth))
@@ -2031,9 +2031,9 @@ bool CBlock::AcceptBlock()
     CBlockIndex* pindexPrev = (*mi).second;
     int nHeight = pindexPrev->nHeight+1;
 
-    if (IsSatoriCoinV2(nHeight) && nVersion < 7)
+    if (IsHeliumCoinV2(nHeight) && nVersion < 7)
         return DoS(100, error("AcceptBlock() : reject too old nVersion = %d", nVersion));
-    else if (!IsSatoriCoinV2(nHeight) && nVersion > 7)
+    else if (!IsHeliumCoinV2(nHeight) && nVersion > 7)
         return DoS(100, error("AcceptBlock() : reject too new nVersion = %d", nVersion));
 
     if (IsProofOfWork() && nHeight > Params().LastPOWBlock())
@@ -2295,7 +2295,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
 }
 
 #ifdef ENABLE_WALLET
-// SatoriCoin: attempt to generate suitable proof-of-stake
+// HeliumCoin: attempt to generate suitable proof-of-stake
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
     // if we are trying to sign
@@ -2646,7 +2646,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("SatoriCoin-loadblk");
+    RenameThread("HeliumCoin-loadblk");
 
     CImportingNow imp;
 

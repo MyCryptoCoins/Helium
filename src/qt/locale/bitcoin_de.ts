@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About SatoriCoin</source>
-        <translation>Über SatoriCoin</translation>
+        <source>About HeliumCoin</source>
+        <translation>Über HeliumCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;SatoriCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;SatoriCoin&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;HeliumCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;HeliumCoin&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The SatoriCoin developers</source>
+Copyright © 2014 The HeliumCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your SatoriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Das sind Ihre SatoriCoin Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
+        <source>These are your HeliumCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Das sind Ihre HeliumCoin Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -78,8 +78,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a SatoriCoin address</source>
-        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine SatoriCoin Adresse besitzen</translation>
+        <source>Sign a message to prove you own a HeliumCoin address</source>
+        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine HeliumCoin Adresse besitzen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified SatoriCoin address</source>
-        <translation>Verifizieren Sie ob eine Nachricht einer bestimmten SatoriCoin Adresse signiert wurde</translation>
+        <source>Verify a message to ensure it was signed with a specified HeliumCoin address</source>
+        <translation>Verifizieren Sie ob eine Nachricht einer bestimmten HeliumCoin Adresse signiert wurde</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+82"/>
-        <source>SatoriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>SatoriCoin wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
+        <source>HeliumCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>HeliumCoin wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -355,8 +355,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about SatoriCoin</source>
-        <translation>Informationen über SatoriCoin anzeigen</translation>
+        <source>Show information about HeliumCoin</source>
+        <translation>Informationen über HeliumCoin anzeigen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -395,13 +395,13 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a SatoriCoin address</source>
-        <translation>Senden Sie Coins an eine SatoriCoin Adresse</translation>
+        <source>Send coins to a HeliumCoin address</source>
+        <translation>Senden Sie Coins an eine HeliumCoin Adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for SatoriCoin</source>
-        <translation>Konfigurationsoptionen für SatoriCoin ändern</translation>
+        <source>Modify configuration options for HeliumCoin</source>
+        <translation>Konfigurationsoptionen für HeliumCoin ändern</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -441,8 +441,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>SatoriCoin</source>
-        <translation>SatoriCoin</translation>
+        <source>HeliumCoin</source>
+        <translation>HeliumCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -451,8 +451,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About SatoriCoin</source>
-        <translation>&amp;Über SatoriCoin</translation>
+        <source>&amp;About HeliumCoin</source>
+        <translation>&amp;Über HeliumCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -503,13 +503,13 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>SatoriCoin client</source>
-        <translation>SatoriCoin Anwendung</translation>
+        <source>HeliumCoin client</source>
+        <translation>HeliumCoin Anwendung</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to SatoriCoin network</source>
-        <translation><numerusform>%n aktive Verbindung zum SatoriCoin Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum SatoriCoin Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to HeliumCoin network</source>
+        <translation><numerusform>%n aktive Verbindung zum HeliumCoin Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum HeliumCoin Netzwerk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -602,8 +602,8 @@ Adresse: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid SatoriCoin address or malformed URI parameters.</source>
-        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige SatoriCoin Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid HeliumCoin address or malformed URI parameters.</source>
+        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige HeliumCoin Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -726,8 +726,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. SatoriCoin can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler ist aufgetreten. SatoriCoin kann nicht fortgesetzt werden und wird beendet.</translation>
+        <source>A fatal error occurred. HeliumCoin can no longer continue safely and will quit.</source>
+        <translation>Ein fataler Fehler ist aufgetreten. HeliumCoin kann nicht fortgesetzt werden und wird beendet.</translation>
     </message>
 </context>
 <context>
@@ -1046,8 +1046,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid SatoriCoin address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige SatoriCoin Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HeliumCoin address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige HeliumCoin Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1065,8 +1065,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>SatoriCoin-Qt</source>
-        <translation>SatoriCoin-Qt
+        <source>HeliumCoin-Qt</source>
+        <translation>HeliumCoin-Qt
 </translation>
     </message>
     <message>
@@ -1139,13 +1139,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start SatoriCoin after logging in to the system.</source>
-        <translation>Automatisch SatoriCoin starten beim Einloggen in das System.</translation>
+        <source>Automatically start HeliumCoin after logging in to the system.</source>
+        <translation>Automatisch HeliumCoin starten beim Einloggen in das System.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start SatoriCoin on system login</source>
-        <translation>&amp;Starte SatoriCoin bei Systemstart</translation>
+        <source>&amp;Start HeliumCoin on system login</source>
+        <translation>&amp;Starte HeliumCoin bei Systemstart</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1154,8 +1154,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the SatoriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den SatoriCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <source>Automatically open the HeliumCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den HeliumCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1184,7 +1184,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the SatoriCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the HeliumCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1229,7 +1229,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting SatoriCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting HeliumCoin.</source>
         <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1240,7 +1240,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von SatoriCoins angezeigt werden soll.</translation>
+        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von HeliumCoins angezeigt werden soll.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1265,7 +1265,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>Use black visual theme (requires restart)</source>
-        <translation>Verwende das schwarze SatoriCoin Wallet Design (Neustart erforderlich)</translation>
+        <translation>Verwende das schwarze HeliumCoin Wallet Design (Neustart erforderlich)</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1296,7 +1296,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting SatoriCoin.</source>
+        <source>This setting will take effect after restarting HeliumCoin.</source>
         <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1315,8 +1315,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SatoriCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem SatoriCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HeliumCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem HeliumCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1389,7 +1389,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start SatoriCoin: click-to-pay handler</source>
+        <source>Cannot start HeliumCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1557,7 +1557,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the SatoriCoin-Qt help message to get a list with possible SatoriCoin command-line options.</source>
+        <source>Show the HeliumCoin-Qt help message to get a list with possible HeliumCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1577,13 +1577,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>SatoriCoin - Debug window</source>
-        <translation>SatoriCoin - Debug Fenster</translation>
+        <source>HeliumCoin - Debug window</source>
+        <translation>HeliumCoin - Debug Fenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>SatoriCoin Core</source>
-        <translation>SatoriCoin Kern</translation>
+        <source>HeliumCoin Core</source>
+        <translation>HeliumCoin Kern</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1592,8 +1592,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the SatoriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Offne die SatoriCoin Fehlerlogs aus dem Datenverzeichnis. Diese Funktion kann bei größeren Log-Files länger benötigen.</translation>
+        <source>Open the HeliumCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Offne die HeliumCoin Fehlerlogs aus dem Datenverzeichnis. Diese Funktion kann bei größeren Log-Files länger benötigen.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1602,8 +1602,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the SatoriCoin RPC console.</source>
-        <translation>Willkommen zur SatoriCoin RPC Anwendung.</translation>
+        <source>Welcome to the HeliumCoin RPC console.</source>
+        <translation>Willkommen zur HeliumCoin RPC Anwendung.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1784,7 +1784,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Empfängeradresse (z.b. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -1884,8 +1884,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid SatoriCoin address</source>
-        <translation>Warnung: Ungültige SatoriCoin Adresse</translation>
+        <source>WARNING: Invalid HeliumCoin address</source>
+        <translation>Warnung: Ungültige HeliumCoin Adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1958,7 +1958,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Empfängeradresse (z.b. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
@@ -2019,8 +2019,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this SatoriCoin address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser SatoriCoin Adresse bist.</translation>
+        <source>Sign the message to prove you own this HeliumCoin address</source>
+        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser HeliumCoin Adresse bist.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2051,7 +2051,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified SatoriCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified HeliumCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2062,7 +2062,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Empfängeradresse (z.b. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -2072,8 +2072,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter SatoriCoin signature</source>
-        <translation>SatoriCoin Signatur eingeben</translation>
+        <source>Enter HeliumCoin signature</source>
+        <translation>HeliumCoin Signatur eingeben</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2651,8 +2651,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>SatoriCoin version</source>
-        <translation>SatoriCoin Version</translation>
+        <source>HeliumCoin version</source>
+        <translation>HeliumCoin Version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2661,8 +2661,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SatoriCoind</source>
-        <translation>Kommando versenden an -server oder SatoriCoind </translation>
+        <source>Send command to -server or HeliumCoind</source>
+        <translation>Kommando versenden an -server oder HeliumCoind </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2681,13 +2681,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SatoriCoin.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: SatoriCoin.conf)</translation>
+        <source>Specify configuration file (default: HeliumCoin.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: HeliumCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SatoriCoind.pid)</source>
-        <translation>PID Datei angeben (Standard: SatoriCoin.pid)</translation>
+        <source>Specify pid file (default: HeliumCoind.pid)</source>
+        <translation>PID Datei angeben (Standard: HeliumCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2704,13 +2704,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SatoriCoinrpc
+rpcuser=HeliumCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;HeliumCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2816,8 +2816,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="-104"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SatoriCoin will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird SatoriCoin nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HeliumCoin will not work properly.</source>
+        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird HeliumCoin nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3123,7 +3123,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. SatoriCoin is shutting down.</source>
+        <source>Initialization sanity check failed. HeliumCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3183,13 +3183,13 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of SatoriCoin</source>
-        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der SatoriCoin Brieftasche.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HeliumCoin</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der HeliumCoin Brieftasche.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart SatoriCoin to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden. Starte die SatoriCoin Brieftasche neu zum komplettieren.</translation>
+        <source>Wallet needed to be rewritten: restart HeliumCoin to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden. Starte die HeliumCoin Brieftasche neu zum komplettieren.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3248,7 +3248,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+126"/>
-        <source>Unable to bind to %s on this computer. SatoriCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. HeliumCoin is probably already running.</source>
         <translation>Fehler beim anbinden %s auf diesem Computer. BlaclCoin Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
@@ -3288,7 +3288,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. SatoriCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. HeliumCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

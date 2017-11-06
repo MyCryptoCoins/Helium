@@ -1,4 +1,4 @@
-# SatoriCoin build instructions for OSX
+# HeliumCoin build instructions for OSX
 
 Copyright (c) 2009-2012 Bitcoin Developers
 Distributed under the MIT/X11 software license, see the accompanying file
@@ -9,12 +9,12 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-Mac OS X SatoriCoind build instructions
+Mac OS X HeliumCoind build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
 
-See readme-qt.rst for instructions on building SatoriCoin QT, the
+See readme-qt.rst for instructions on building HeliumCoin QT, the
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -29,7 +29,7 @@ but you can get the current version from http://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-git clone https://github.com/SatoriCoin/SatoriCoin.git SatoriCoin
+git clone https://github.com/HeliumCoin/HeliumCoin.git HeliumCoin
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -43,14 +43,14 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build SatoriCoind:
+4.  Now you should be able to build HeliumCoind:
 
-cd SatoriCoin/src
+cd HeliumCoin/src
 make -f makefile.osx
 
 Run:
-  ./SatoriCoind --help  # for a list of command-line options.
+  ./HeliumCoind --help  # for a list of command-line options.
 Run
-  ./SatoriCoind -daemon # to start the SatoriCoin daemon.
+  ./HeliumCoind -daemon # to start the HeliumCoin daemon.
 Run
-  ./SatoriCoind help # When the daemon is running, to get a list of RPC commands
+  ./HeliumCoind help # When the daemon is running, to get a list of RPC commands

@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About SatoriCoin</source>
-        <translation>Tietoa SatoriCoinista</translation>
+        <source>About HeliumCoin</source>
+        <translation>Tietoa HeliumCoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;SatoriCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;SatoriCoin&lt;/b&gt;-asiakasohjelman versio</translation>
+        <source>&lt;b&gt;HeliumCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;HeliumCoin&lt;/b&gt;-asiakasohjelman versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The SatoriCoin developers</source>
+Copyright © 2014 The HeliumCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The SatoriCoin developers</translation>
+Copyright © 2014 The HeliumCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -66,8 +66,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your SatoriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat SatoriCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your HeliumCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat HeliumCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -81,8 +81,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a SatoriCoin address</source>
-        <translation>Allekirjoita viesti osoittaaksesi SatoriCoin-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a HeliumCoin address</source>
+        <translation>Allekirjoita viesti osoittaaksesi HeliumCoin-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,8 +96,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified SatoriCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen SatoriCoin-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified HeliumCoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen HeliumCoin-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -264,8 +264,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+82"/>
-        <source>SatoriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>SatoriCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>HeliumCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>HeliumCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -358,8 +358,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about SatoriCoin</source>
-        <translation>Näytä tietoja SatoriCoinista</translation>
+        <source>Show information about HeliumCoin</source>
+        <translation>Näytä tietoja HeliumCoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -398,12 +398,12 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a SatoriCoin address</source>
-        <translation>Lähetä kolikoita SatoriCoin-osoitteeseen</translation>
+        <source>Send coins to a HeliumCoin address</source>
+        <translation>Lähetä kolikoita HeliumCoin-osoitteeseen</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for SatoriCoin</source>
+        <source>Modify configuration options for HeliumCoin</source>
         <translation>Mukauta asiakasohjelman asetuksia</translation>
     </message>
     <message>
@@ -444,8 +444,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>SatoriCoin</source>
-        <translation>SatoriCoin</translation>
+        <source>HeliumCoin</source>
+        <translation>HeliumCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -454,8 +454,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About SatoriCoin</source>
-        <translation>&amp;Tietoa SatoriCoinista</translation>
+        <source>&amp;About HeliumCoin</source>
+        <translation>&amp;Tietoa HeliumCoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -506,13 +506,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>SatoriCoin client</source>
-        <translation>SatoriCoin-asiakasohjelma</translation>
+        <source>HeliumCoin client</source>
+        <translation>HeliumCoin-asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to SatoriCoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys SatoriCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä SatoriCoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to HeliumCoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys HeliumCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä HeliumCoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,8 +605,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid SatoriCoin address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä SatoriCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid HeliumCoin address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä HeliumCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -728,8 +728,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. SatoriCoin can no longer continue safely and will quit.</source>
-        <translation>Virhe kohdattu. SatoriCoin-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
+        <source>A fatal error occurred. HeliumCoin can no longer continue safely and will quit.</source>
+        <translation>Virhe kohdattu. HeliumCoin-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid SatoriCoin address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty SatoriCoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HeliumCoin address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty HeliumCoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>SatoriCoin-Qt</source>
-        <translation>SatoriCoin-Qt</translation>
+        <source>HeliumCoin-Qt</source>
+        <translation>HeliumCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start SatoriCoin after logging in to the system.</source>
-        <translation>Käynnistä SatoriCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start HeliumCoin after logging in to the system.</source>
+        <translation>Käynnistä HeliumCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start SatoriCoin on system login</source>
-        <translation>%Käynnistä SatoriCoin-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start HeliumCoin on system login</source>
+        <translation>%Käynnistä HeliumCoin-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1169,8 +1169,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the SatoriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa SatoriCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the HeliumCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa HeliumCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1199,7 +1199,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the SatoriCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the HeliumCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1244,8 +1244,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting SatoriCoin.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta SatoriCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting HeliumCoin.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta HeliumCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1311,8 +1311,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting SatoriCoin.</source>
-        <translation>Tämä asetus tulee voimaan vasta SatoriCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting HeliumCoin.</source>
+        <translation>Tämä asetus tulee voimaan vasta HeliumCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1330,8 +1330,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SatoriCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti SatoriCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HeliumCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti HeliumCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1404,8 +1404,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start SatoriCoin: click-to-pay handler</source>
-        <translation>SatoriCoin-asiakasohjelmaa ei voida käynnistää: klikkaa maksaaksesi-käsittelijä</translation>
+        <source>Cannot start HeliumCoin: click-to-pay handler</source>
+        <translation>HeliumCoin-asiakasohjelmaa ei voida käynnistää: klikkaa maksaaksesi-käsittelijä</translation>
     </message>
 </context>
 <context>
@@ -1572,8 +1572,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the SatoriCoin-Qt help message to get a list with possible SatoriCoin command-line options.</source>
-        <translation>Näytä SatoriCoin-Qt:n avustusohje saadaksesi listan käytettävistä SatoriCoinin komentokehotteen määritteistä.</translation>
+        <source>Show the HeliumCoin-Qt help message to get a list with possible HeliumCoin command-line options.</source>
+        <translation>Näytä HeliumCoin-Qt:n avustusohje saadaksesi listan käytettävistä HeliumCoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1592,13 +1592,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>SatoriCoin - Debug window</source>
-        <translation>SatoriCoin - Debug-ikkuna</translation>
+        <source>HeliumCoin - Debug window</source>
+        <translation>HeliumCoin - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>SatoriCoin Core</source>
-        <translation>SatoriCoinin ydin</translation>
+        <source>HeliumCoin Core</source>
+        <translation>HeliumCoinin ydin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1607,8 +1607,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the SatoriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa SatoriCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the HeliumCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa HeliumCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1617,8 +1617,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the SatoriCoin RPC console.</source>
-        <translation>Tervetuloa SatoriCoinin RPC-konsoliin.</translation>
+        <source>Welcome to the HeliumCoin RPC console.</source>
+        <translation>Tervetuloa HeliumCoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1678,7 +1678,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä SatoriCoineja</translation>
+        <translation>Lähetä HeliumCoineja</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1798,8 +1798,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä SatoriCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä HeliumCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1898,8 +1898,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid SatoriCoin address</source>
-        <translation>VAROITUS: Epäkelpo SatoriCoin-osoite</translation>
+        <source>WARNING: Invalid HeliumCoin address</source>
+        <translation>VAROITUS: Epäkelpo HeliumCoin-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1972,8 +1972,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä SatoriCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä HeliumCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2033,8 +2033,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this SatoriCoin address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän SatoriCoin-osoitteen</translation>
+        <source>Sign the message to prove you own this HeliumCoin address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän HeliumCoin-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2065,8 +2065,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified SatoriCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä SatoriCoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified HeliumCoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä HeliumCoin-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2076,8 +2076,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a SatoriCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä SatoriCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a HeliumCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä HeliumCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2086,8 +2086,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter SatoriCoin signature</source>
-        <translation>Syötä SatoriCoin-allekirjoitus</translation>
+        <source>Enter HeliumCoin signature</source>
+        <translation>Syötä HeliumCoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2665,8 +2665,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>SatoriCoin version</source>
-        <translation>SatoriCoinin versio</translation>
+        <source>HeliumCoin version</source>
+        <translation>HeliumCoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2675,8 +2675,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SatoriCoind</source>
-        <translation>Syötä komento kohteeseen -server tai SatoriCoind</translation>
+        <source>Send command to -server or HeliumCoind</source>
+        <translation>Syötä komento kohteeseen -server tai HeliumCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2695,13 +2695,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SatoriCoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: SatoriCoin.conf)</translation>
+        <source>Specify configuration file (default: HeliumCoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: HeliumCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SatoriCoind.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: SatoriCoin.pid)</translation>
+        <source>Specify pid file (default: HeliumCoind.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: HeliumCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2718,21 +2718,21 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SatoriCoinrpc
+rpcuser=HeliumCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;HeliumCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
-On suositeltavaa, että käytät seuraavaa arvottua salasanaa: rpcuser=SatoriCoinrpc
+On suositeltavaa, että käytät seuraavaa arvottua salasanaa: rpcuser=HeliumCoinrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa) Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;SatoriCoin Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;HeliumCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2837,8 +2837,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="-104"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SatoriCoin will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, SatoriCoin ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HeliumCoin will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, HeliumCoin ei toimi oikein.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3144,8 +3144,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. SatoriCoin is shutting down.</source>
-        <translation>Käyttöönottotarkistus epäonnistui. SatoriCoin-asiakasohjelma suljetaan.</translation>
+        <source>Initialization sanity check failed. HeliumCoin is shutting down.</source>
+        <translation>Käyttöönottotarkistus epäonnistui. HeliumCoin-asiakasohjelma suljetaan.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -3204,13 +3204,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of SatoriCoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version SatoriCoin-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HeliumCoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version HeliumCoin-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart SatoriCoin to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä SatoriCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart HeliumCoin to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä HeliumCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3269,8 +3269,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+126"/>
-        <source>Unable to bind to %s on this computer. SatoriCoin is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. SatoriCoin-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. HeliumCoin is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. HeliumCoin-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-102"/>
@@ -3309,8 +3309,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. SatoriCoin is probably already running.</source>
-        <translation>Lukkotiedostoa ei voida saada haltuun datahakemistossa %s. SatoriCoin on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. HeliumCoin is probably already running.</source>
+        <translation>Lukkotiedostoa ei voida saada haltuun datahakemistossa %s. HeliumCoin on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="+4"/>
