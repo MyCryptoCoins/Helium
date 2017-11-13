@@ -56,13 +56,16 @@ static const int64_t COIN_YEAR_REWARD = 8 * CENT;
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
+static const int BLOCKSIZE_FORK 700
 
-inline bool IsProtocolV0(int nHeight) { return TestNet() || nHeight >= 0; } 
+
+inline bool IsProtocolV0(int nHeight) { return TestNet() || nHeight >= 0; }
 
 inline int64_t FutureDriftV0(int64_t nTime, int nHeight) { return nTime + 10 * 60; }
 inline int64_t FutureDrift(int64_t nTime, int nHeight) { return nTime + 10 * 60; }
 
-inline unsigned int GetTargetSpacing(int nHeight) {return (nHeight >= 0) ? 120 : 120; }  
+inline unsigned int GetTargetSpacing(int nHeight) {return (nHeight >= BLOCKSIZE_FORK) ? 90 : 120; }
+inline unsigned int GetTargetTimespan(int nHeight) {return (nHeight >= BLOCKSIZE_FORK) ? 90 : 120; }
 
 /** HeliumCoin 1.0 */
 inline bool IsHeliumCoinV1(int nHeight) { return TestNet() || nHeight > 0; }

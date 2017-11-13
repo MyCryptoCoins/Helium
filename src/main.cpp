@@ -48,8 +48,6 @@ int nCoinbaseMaturity = 360;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
-static const int64_t nTargetTimespan = 120;  // 120 seconds
-
 uint256 nBestChainTrust = 0;
 uint256 nBestInvalidTrust = 0;
 
@@ -1037,6 +1035,8 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
 
     int64_t nTargetSpacing = GetTargetSpacing(pindexLast->nHeight);
     int64_t nActualSpacing = pindexPrev->GetBlockTime() - pindexPrevPrev->GetBlockTime();
+    int64_t nTargetTimespan = GetTargetTimespan(pindexLast->nHeight);
+
     if (nActualSpacing < 0)
             nActualSpacing = nTargetSpacing;
 
