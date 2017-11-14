@@ -101,9 +101,7 @@ public:
 
         vSeeds.push_back(CDNSSeedData("HeliumCoin1", "45.76.3.75"));
         vSeeds.push_back(CDNSSeedData("HeliumCoin2", "66.55.159.4"));
-	vSeeds.push_back(CDNSSeedData("ForkNode1", "138.197.168.162"));
-	vSeeds.push_back(CDNSSeedData("ForkNode2", "138.68.136.38"));
-	vSeeds.push_back(CDNSSeedData("ForkNode3", "45.55.142.171"));
+
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
@@ -190,9 +188,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.push_back(CDNSSeedData("HeliumCoin1", "45.76.3.75"));
         vSeeds.push_back(CDNSSeedData("HeliumCoin2", "66.55.159.4"));
-	vSeeds.push_back(CDNSSeedData("ForkNode1", "138.197.168.162"));
-	vSeeds.push_back(CDNSSeedData("ForkNode2", "138.68.136.38"));
-	vSeeds.push_back(CDNSSeedData("ForkNode3", "45.55.142.171"));
+
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
