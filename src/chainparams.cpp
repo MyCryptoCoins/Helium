@@ -99,8 +99,11 @@ public:
         assert(hashGenesisBlock == uint256("0x0000004e58e615b6712c221d77bfb2e7fe7398cfbf43852d61773dbb2cf490bc"));
         assert(genesis.hashMerkleRoot == uint256("0xf96f37aa7d42b403080c23906ca2b9ffa97e7bdec5d90c28b171ba7c4df50603"));
 
-        vSeeds.push_back(CDNSSeedData("HeliumCoin1", "45.77.203.20"));
-        vSeeds.push_back(CDNSSeedData("HeliumCoin2", "45.77.197.236"));
+        vSeeds.push_back(CDNSSeedData("HeliumCoin1", "45.76.3.75"));
+        vSeeds.push_back(CDNSSeedData("HeliumCoin2", "66.55.159.4"));
+	vSeeds.push_back(CDNSSeedData("ForkNode1", "138.197.168.162"));
+	vSeeds.push_back(CDNSSeedData("ForkNode2", "138.68.136.38"));
+	vSeeds.push_back(CDNSSeedData("ForkNode3", "45.55.142.171"));
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
@@ -185,8 +188,11 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xf96f37aa7d42b403080c23906ca2b9ffa97e7bdec5d90c28b171ba7c4df50603"));
 
         vFixedSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("HeliumCoin1", "45.77.203.20"));
-        vSeeds.push_back(CDNSSeedData("HeliumCoin2", "45.77.197.236"));
+        vSeeds.push_back(CDNSSeedData("HeliumCoin1", "45.76.3.75"));
+        vSeeds.push_back(CDNSSeedData("HeliumCoin2", "66.55.159.4"));
+	vSeeds.push_back(CDNSSeedData("ForkNode1", "138.197.168.162"));
+	vSeeds.push_back(CDNSSeedData("ForkNode2", "138.68.136.38"));
+	vSeeds.push_back(CDNSSeedData("ForkNode3", "45.55.142.171"));
 
         /** DEPRICATED IN QT 5.6+ (To compile on Qt5.5.1 and lower uncomment  */
         /*
